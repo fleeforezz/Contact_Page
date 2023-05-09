@@ -10,7 +10,7 @@ sudo apt install git
 ```
 git clone https://github.com/fleeforezz/Sakura.git
 ```
-> Open Fleeforezz file
+> Open Sakura file
 ```
 cd Sakura
 ```
