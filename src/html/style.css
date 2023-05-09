@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    bottom: 0;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    display: block;
+    align-items: center;
+    justify-content: end;
+    margin: 0 auto;
+    height: 50vh;
+
+}
+
+.header {
+    margin-top: 10em;
+}
+
+.sakura-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-align: center;
+}
+
+.intro {
+    text-shadow: 0px 0px 5px black;
+    color: lightgray;
+    text-align: center;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.outtro-text {
+    color: white;
+    text-align: center;
+}
+
+.outtro {
+    text-align: center;
+    margin-top: 25em;
+}
+
+.box {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.github {
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px 100px 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.github:hover, .github:active {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+.facebook {
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.facebook:hover, .facebook:active {
+    background-color: #1877F2;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+.instagram {
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.instagram:hover, .instagram:active {
+    background-color: #7fecad;
+    color: white;
+    border: none;
+    background-image: linear-gradient(120deg, #df0e0e, #553bb4, #2c2cda);
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+.twitch {
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.twitch:hover, twitch:active{
+    background-color: #9146FF;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+.discord {
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.discord:hover, discord:active{
+    background-color: #5865F2;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 20px 10px black;
+}
