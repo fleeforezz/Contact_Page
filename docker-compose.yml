@@ -6,3 +6,4 @@ services:
       - "9123:80"
     volumes:
       - .:/code
+    restart: unless-stopped
