@@ -61,8 +61,7 @@ body {
 }
 @keyframes outtro {
     0% { margin-top: 300px}
-    15% { margin-top: 290px}
-    30% { margin-top: 320px; }
+    50% { margin-top: 280px}
 }
 
 .box {
