@@ -57,11 +57,11 @@ body {
 .outtro {
     text-align: center;
     margin-top: 300px;
-    animation: outtro 2s infinite;
+    animation: outtro 500ms infinite;
+    animation-direction: alternate;
 }
 @keyframes outtro {
-    0% { margin-top: 300px}
-    50% { margin-top: 280px}
+    100% { margin-top: 280px}
 }
 
 .box {
