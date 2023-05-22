@@ -14,14 +14,36 @@ body {
     height: 50vh;
     overflow: none;
 }
+.light-mode {
+    background-color: white;
+}
 
 .header {
     margin-top: 10em;
 }
 
+.screen-mode {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid white;
+    border-radius: 100px;
+    padding: 20px 45px;
+    background-image: url(moon.png);
+    background-color: black;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.screen-mode:hover, .screen-mode:active {
+    background-image: url(sun.png);
+    transition-duration: 500ms;
+    background-position: 50px;
+}
+
 .profile-logo {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 15px;
 }
@@ -84,6 +106,7 @@ body {
     margin-right: 1rem;
     text-align: center; 
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(github-mark-white.png);
     background-size: 25px;
@@ -110,6 +133,7 @@ body {
     margin-right: 1rem;
     text-align: center;
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(facebook-icon.png);
     background-size: 25px;
@@ -136,6 +160,7 @@ body {
     margin-right: 1rem;
     text-align: center;
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(instagram-icon.png);
     background-size: 25px;
@@ -162,6 +187,7 @@ body {
     margin-right: 1rem;
     text-align: center;
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(twitch-icon.png);
     background-size: 25px;
@@ -189,6 +215,7 @@ body {
     margin-right: 1rem;
     text-align: center;
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(discord-icon.png);
     background-size: 25px;
@@ -215,6 +242,7 @@ body {
     margin-right: 1rem;
     text-align: center;
     text-decoration: none;
+    transition-duration: 500ms;
     background: black;
     background-image: url(fleeforezz-icon.png);
     background-size: 25px;
