@@ -12,7 +12,7 @@ body {
     align-items: center;
     margin: 10px;
     height: 50vh;
-    overflow: none;
+    overflow: hidden;
 }
 
 .header {
@@ -66,6 +66,93 @@ body {
 .box {
     margin-top: 3em;
     text-align: center;
+}
+
+.border-box1 {
+    filter: blur(15px);
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(47, 184, 255, .42) 31.77%, #5c9df1 100%);
+    border-radius: 58% 42% 27% 73% / 20% 27% 73% 80% ;
+    transform: translate(1700px, -10px) rotate(-90deg);
+    animation: animate-border1 20s infinite alternate;
+    
+}
+@keyframes animate-border1 {
+    0% { background-color: red;}
+    2% { background-color: rgb(255, 106, 0);}
+    4% { background-color: rgb(255, 238, 0);}
+    6% { background-color: rgb(200, 255, 0);}
+    8% { background-color: rgb(128, 255, 0);}
+    10% { background-color: rgb(0, 255, 55);}
+    12% { background-color: rgb(0, 255, 162);}
+    14% { background-color: rgb(0, 255, 251);}
+    16% { background-color: rgb(0, 238, 255);}
+    20% { background-color: rgb(0, 166, 255);}
+    25% { background-color: rgb(0, 183, 255);}
+    30% { background-color: rgb(0, 157, 255);}
+    35% { background-color: rgb(0, 102, 255);}
+    40% { background-color: rgb(0, 21, 255);}
+    45% { background-color: rgb(60, 0, 255);}
+    50% { background-color: rgb(115, 0, 255);}
+    55% { background-color: rgb(149, 0, 255);}
+    60% { background-color: rgb(187, 0, 255);}
+    65% { background-color: rgb(234, 0, 255);}
+    70% { background-color: rgb(255, 0, 225);}
+    75% { background-color: rgb(255, 0, 212);}
+    80% { background-color: rgb(255, 0, 149);}
+    85% { background-color: rgb(255, 0, 123);}
+    90% { background-color: rgb(255, 0, 102);}
+    95% { background-color: rgb(255, 0, 111);}
+    100% { background-color: rgb(255, 0, 55);}
+    100% {
+        transform: translate(1700px, -10px) rotate(-10deg);
+        border-radius: 78% 22% 79% 21% / 43% 33% 67% 57% ;
+    }
+}
+.border-box2 {
+    filter: blur(15px);
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(47, 184, 255, .42) 31.77%, #5c9df1 100%);
+    border-radius: 58% 42% 27% 73% / 20% 27% 73% 80% ;
+    transform: translate(-10px, 700px) rotate(-90deg);
+    animation: animate-border2 20s infinite alternate-reverse;
+    
+}
+@keyframes animate-border2 {
+    0% { background-color: red;}
+    2% { background-color: rgb(255, 106, 0);}
+    4% { background-color: rgb(255, 238, 0);}
+    6% { background-color: rgb(200, 255, 0);}
+    8% { background-color: rgb(128, 255, 0);}
+    10% { background-color: rgb(0, 255, 55);}
+    12% { background-color: rgb(0, 255, 162);}
+    14% { background-color: rgb(0, 255, 251);}
+    16% { background-color: rgb(0, 238, 255);}
+    20% { background-color: rgb(0, 166, 255);}
+    25% { background-color: rgb(0, 183, 255);}
+    30% { background-color: rgb(0, 157, 255);}
+    35% { background-color: rgb(0, 102, 255);}
+    40% { background-color: rgb(0, 21, 255);}
+    45% { background-color: rgb(60, 0, 255);}
+    50% { background-color: rgb(115, 0, 255);}
+    55% { background-color: rgb(149, 0, 255);}
+    60% { background-color: rgb(187, 0, 255);}
+    65% { background-color: rgb(234, 0, 255);}
+    70% { background-color: rgb(255, 0, 225);}
+    75% { background-color: rgb(255, 0, 212);}
+    80% { background-color: rgb(255, 0, 149);}
+    85% { background-color: rgb(255, 0, 123);}
+    90% { background-color: rgb(255, 0, 102);}
+    95% { background-color: rgb(255, 0, 111);}
+    100% { background-color: rgb(255, 0, 55);}
+    100% {
+        transform: translate(-10px, 700px) rotate(-10deg);
+        border-radius: 78% 22% 79% 21% / 43% 33% 67% 57% ;
+    }
 }
 
 .navigation {
