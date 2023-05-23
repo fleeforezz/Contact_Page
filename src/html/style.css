@@ -19,26 +19,6 @@ body {
     margin-top: 10em;
 }
 
-.screen-mode {
-    margin-top: 10px;
-    margin-left: 135em;
-    border: 3px solid white;
-    border-radius: 100px;
-    padding: 20px 45px;
-    background-image: url(moon.png);
-    background-color: black;
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: 10px;
-    transition-duration: 500ms;
-    cursor: pointer;
-}
-.screen-mode:hover, .screen-mode:active {
-    background-image: url(sun.png);
-    transition-duration: 500ms;
-    background-position: 50px;
-}
-
 .profile-logo {
     display: flex;
     justify-content: center;
