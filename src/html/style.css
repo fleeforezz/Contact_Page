@@ -64,14 +64,11 @@ body {
 
 .box {
     margin-top: 3em;
-    text-align: center;
 }
 
 .navigation-outside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid white;    
+    position: absolute;
+    transform: translate(765px, 350px);
 }
 
 .navigation-inside {
@@ -158,7 +155,7 @@ body {
 }
 
                                                             /*Twitch*/
-.twitch { /* Box */
+.twitch {
     font-weight: 600;
     color: white;
     border-radius: 10px;
@@ -172,7 +169,7 @@ body {
     background-repeat: no-repeat;
     background-position: 16px;
 }
-.twitch:hover, .twitch:active { /* Effect */
+.twitch:hover, .twitch:active {
     background-color: #ae78ff;
     color: black;
     border: none;
