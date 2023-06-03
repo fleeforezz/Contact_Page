@@ -67,7 +67,7 @@ body {
 }
 
 .navigation-outside {
-    position: absolute;
+    position: absolute; 
     transform: translate(765px, 350px);
 }
 
