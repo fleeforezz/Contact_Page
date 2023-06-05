@@ -299,7 +299,7 @@ body {
     position: absolute;
     width: 64px;
     height: 32px;
-    background-image: url(girl.png);
+    background-image: url();
     background-repeat: no-repeat;
     border-radius: 1px;
     z-index: -1;
