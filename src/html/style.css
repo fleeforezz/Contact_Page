@@ -68,10 +68,12 @@ body {
 
 .navigation-outside {
     position: absolute; 
-    transform: translate(765px, 350px);
+    transform: translate(810px, 350px);
 }
 
 .navigation-inside {
+    margin: 0;
+    padding: 0;
     cursor: pointer;
     list-style-type: none;
 }
@@ -90,6 +92,34 @@ body {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
+}
+.gitbox1 {
+    filter: blur(2px);
+    position: absolute;
+    width: 10%;
+    height: 3%;
+    background-color: red;
+    border-radius: 50% 25%;
+    z-index: -1;
+    transform: translate(-180px, -5px);
+    animation: gitbox1 5s infinite;
+}
+@keyframes gitbox1 {
+    100% { transform: translate(-180px, -5px) rotate(360deg); }
+}
+.gitbox2 {
+    filter: blur(2px);
+    position: absolute;
+    width: 10%;
+    height: 3%;
+    background-color: aquamarine;
+    border-radius: 1px;
+    z-index: -1;
+    transform: translate(100px, 30px);
+    animation: gitbox2 5s infinite alternate-reverse;
+}
+@keyframes gitbox2 {
+    100% { transform: translate(100px, 30px) rotate(360deg); }
 }
 .github:hover, .github:active {
     background-color: lightgray;
@@ -116,6 +146,35 @@ body {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
+}
+.facebox1 {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    background-image: url(boy.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: translate(15px, 75px);
+    animation: facebox1 5s infinite alternate;
+}
+@keyframes facebox1 {
+    50% { transform: translate(15px, 50px); }
+    100% { transform: translate(15px, 50px);  }
+}
+.facebox2 {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    background-image: url(girl.png);
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    z-index: -1;
+    transform: translate(-30px, 75px);
+    animation: facebox2 5s infinite alternate-reverse;
+}
+@keyframes facebox2 {
+    50% { transform: translate(-30px, 50px); }
+    100% { transform: translate(-30px, 50px);  }
 }
 .facebook:hover, .facebook:active {
     background-color: #71afff;
@@ -194,7 +253,7 @@ body {
     background-image: url(discord-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 16px; /*+++++++++++++++++++++++++++++*/
+    background-position: 16px;
 }
 .discord:hover, .discord:active{
     background-color: #848df2;
@@ -220,7 +279,36 @@ body {
     background-image: url(fleeforezz-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 16px; /*+++++++++++++++++++++++++++++*/
+    background-position: 16px;
+}
+.fleebox1 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-image: url();
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: translate(150px, 75px);
+    animation: fleebox1 5s infinite alternate;
+}
+@keyframes fleebox1 {
+    50% { transform: translate(15px, 50px); }
+    100% { transform: translate(15px, 50px);  }
+}
+.fleebox2 {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    background-image: url(girl.png);
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    z-index: -1;
+    transform: translate(-30px, 75px);
+    animation: fleebox2 5s infinite alternate-reverse;
+}
+@keyframes fleebox2 {
+    50% { transform: translate(-30px, 50px); }
+    100% { transform: translate(-30px, 50px);  }
 }
 .Fleeforezz:hover, .Fleeforezz:active {
     background-color: rgb(179, 252, 228);
