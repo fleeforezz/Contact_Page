@@ -283,22 +283,21 @@ body {
 }
 .fleebox1 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    background-image: url();
+    width: 64px;
+    height: 64px;
+    background-image: url(leaf2.png);
     background-repeat: no-repeat;
     z-index: -1;
-    transform: translate(150px, 75px);
-    animation: fleebox1 5s infinite alternate;
+    transform: translate(-200px, 410px);
+    animation: fleebox1 3s infinite alternate;
 }
 @keyframes fleebox1 {
-    50% { transform: translate(15px, 50px); }
-    100% { transform: translate(15px, 50px);  }
+    100% { transform: translate(-200px, 415px); }
 }
 .fleebox2 {
     position: absolute;
     width: 64px;
-    height: 32px;
+    height: 64px;
     background-image: url();
     background-repeat: no-repeat;
     border-radius: 1px;
