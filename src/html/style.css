@@ -298,17 +298,17 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url();
+    background-image: url(olive-tree.png);
     background-repeat: no-repeat;
     border-radius: 1px;
     z-index: -1;
-    transform: translate(-30px, 75px);
-    animation: fleebox2 5s infinite alternate-reverse;
+    transform: translate(75px, 390px) rotate(-90deg);
+    animation: cocotree 4s infinite alternate;
 }
-@keyframes fleebox2 {
-    50% { transform: translate(-30px, 50px); }
-    100% { transform: translate(-30px, 50px);  }
+@keyframes cocotree {
+    
 }
+
 .Fleeforezz:hover, .Fleeforezz:active {
     background-color: rgb(179, 252, 228);
     color: black;
