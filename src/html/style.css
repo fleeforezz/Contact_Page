@@ -335,13 +335,13 @@ body {
 }
 .fleebox-tree {
     position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     background-image: url(olive-tree.png);
     background-repeat: no-repeat;
     border-radius: 1px;
-    z-index: -1;
-    transform: translate(80px, 390px) rotate(-70deg);
+    z-index: 1;
+    transform: translate(45px, 400px) rotate(-70deg);
 }
 
 .Fleeforezz:hover, .Fleeforezz:active {
