@@ -255,6 +255,45 @@ body {
     background-repeat: no-repeat;
     background-position: 16px;
 }
+.disbox-gamer {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url(gamer.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translate(48px, 332px);
+}
+.disbox-heart {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    background-image: url(heart.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translate(85px, 332px) rotate(30deg);
+    animation: heart 2s infinite alternate;
+}
+@keyframes heart {
+    100% {
+        transform: translate(85px, 339px) rotate(30deg);
+    }
+}
+.disbox-mushroom {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(mushroom.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translate(25px, 350px) rotate(-10deg);
+    animation: mushroom 1s infinite alternate-reverse;
+}
+@keyframes mushroom {
+    100% {
+        transform: translate(25px, 345px) rotate(-10deg);
+    }
+}
 .discord:hover, .discord:active{
     background-color: #848df2;
     color: black;
@@ -281,7 +320,7 @@ body {
     background-repeat: no-repeat;
     background-position: 16px;
 }
-.fleebox1 {
+.fleebox-leaf {
     position: absolute;
     width: 64px;
     height: 64px;
@@ -289,12 +328,12 @@ body {
     background-repeat: no-repeat;
     z-index: -1;
     transform: translate(-200px, 410px);
-    animation: fleebox1 3s infinite alternate;
+    animation: fleebox-leaf 3s infinite alternate;
 }
-@keyframes fleebox1 {
+@keyframes fleebox-leaf {
     100% { transform: translate(-200px, 415px); }
 }
-.fleebox2 {
+.fleebox-tree {
     position: absolute;
     width: 64px;
     height: 64px;
@@ -302,11 +341,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 1px;
     z-index: -1;
-    transform: translate(75px, 390px) rotate(-90deg);
-    animation: cocotree 4s infinite alternate;
-}
-@keyframes cocotree {
-    
+    transform: translate(80px, 390px) rotate(-70deg);
 }
 
 .Fleeforezz:hover, .Fleeforezz:active {
