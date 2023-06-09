@@ -228,6 +228,21 @@ body {
     background-repeat: no-repeat;
     background-position: 16px;
 }
+.twibox-game-console {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url(game-console.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translate(60px, 250px) rotate(-15deg);
+    animation: twibox-game-console 500ms infinite alternate;
+}
+@keyframes twibox-game-console {
+    100% {
+        transform: translate(60px, 245px) rotate(-15deg);
+    }
+}
 .twitch:hover, .twitch:active {
     background-color: #ae78ff;
     color: black;
