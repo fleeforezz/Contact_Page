@@ -15,36 +15,27 @@ body {
     overflow: hidden;
 }
 
-.header {
-    margin-top: 5em;
-}
-
-.profile-logo {
-    display: flex;
-    justify-content: center;
-}
-
 .logo {
+    position: absolute;
+    margin: 75px 910px;
     width: 81px;
     height: 127.5px;
-    border-radius: 180px;
+    border-radius: 360px;
 }
 
 .name {
+    position: absolute;
+    margin: 225px 850px;
     text-shadow: 0px 0px 5px black;
     color: white;
-    text-align: center;
 }
 
 .intro {
+    position: absolute;
+    margin: 225px 850px;
     text-shadow: 0px 0px 5px black;
     color: lightgray;
     text-align: center;
-}
-
-.icon {
-    height: 25px;
-    width: 25px;
 }
 
 .outtro-text {
@@ -60,10 +51,6 @@ body {
 }
 @keyframes outtro {
     100% { margin-top: 280px}
-}
-
-.box {
-    margin-top: 3em;
 }
 
 .navigation-outside {
