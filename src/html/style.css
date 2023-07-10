@@ -75,7 +75,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(github-mark-white.png);
+    background-image: url(assets/github-mark-white.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -113,7 +113,7 @@ body {
     color: black;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(github-mark.png);
+    background-image: url(assets/github-mark.png);
     background-size: 27px;
     background-repeat: no-repeat;
     background-position: 70px 13px;
@@ -129,7 +129,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(facebook-icon.png);
+    background-image: url(assets/facebook-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -138,7 +138,7 @@ body {
     position: absolute;
     width: 64px;
     height: 32px;
-    background-image: url(boy.png);
+    background-image: url(assets/boy.png);
     background-repeat: no-repeat;
     z-index: -1;
     transform: translate(15px, 75px);
@@ -152,7 +152,7 @@ body {
     position: absolute;
     width: 64px;
     height: 32px;
-    background-image: url(girl.png);
+    background-image: url(assets/girl.png);
     background-repeat: no-repeat;
     border-radius: 1px;
     z-index: -1;
@@ -168,7 +168,7 @@ body {
     color: black;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(facebook-icon.png);
+    background-image: url(assets/facebook-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 70px 13px;
@@ -184,7 +184,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(instagram-icon.png);
+    background-image: url(assets/instagram-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -194,7 +194,7 @@ body {
     background-color: thistle;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(instagram-icon.png);
+    background-image: url(assets/instagram-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 70px 13px;
@@ -210,7 +210,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(twitch-icon.png);
+    background-image: url(assets/twitch-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -219,7 +219,7 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url(game-console.png);
+    background-image: url(assets/game-console.png);
     background-repeat: no-repeat;
     z-index: 1;
     transform: translate(60px, 250px) rotate(-15deg);
@@ -236,7 +236,7 @@ body {
     border: none;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(twitch-icon.png);
+    background-image: url(assets/twitch-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 70px 15px;
@@ -252,7 +252,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(discord-icon.png);
+    background-image: url(assets/discord-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -261,7 +261,7 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url(gamer.png);
+    background-image: url(assets/gamer.png);
     background-repeat: no-repeat;
     z-index: 1;
     transform: translate(48px, 332px);
@@ -270,7 +270,7 @@ body {
     position: absolute;
     width: 16px;
     height: 15px;
-    background-image: url(heart.png);
+    background-image: url(assets/heart.png);
     background-repeat: no-repeat;
     z-index: 1;
     transform: translate(85px, 332px) rotate(30deg);
@@ -285,7 +285,7 @@ body {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-image: url(mushroom.png);
+    background-image: url(assets/mushroom.png);
     background-repeat: no-repeat;
     z-index: 1;
     transform: translate(25px, 350px) rotate(-10deg);
@@ -301,7 +301,7 @@ body {
     color: black;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(discord-black-icon.png);
+    background-image: url(assets/discord-black-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 70px 15px;
@@ -317,7 +317,7 @@ body {
     text-decoration: none;
     transition-duration: 500ms;
     background: black;
-    background-image: url(fleeforezz-icon.png);
+    background-image: url(assets/fleeforezz-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 16px;
@@ -326,7 +326,7 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url(leaf2.png);
+    background-image: url(assets/leaf2.png);
     background-repeat: no-repeat;
     z-index: -1;
     transform: translate(-200px, 410px);
@@ -339,7 +339,7 @@ body {
     position: absolute;
     width: 54px;
     height: 54px;
-    background-image: url(olive-tree.png);
+    background-image: url(assets/olive-tree.png);
     background-repeat: no-repeat;
     border-radius: 1px;
     z-index: 1;
@@ -351,7 +351,7 @@ body {
     color: black;
     box-shadow: 0px 0px 20px 10px black;
     transition-duration: 500ms;
-    background-image: url(fleeforezz-icon.png);
+    background-image: url(assets/fleeforezz-icon.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 70px 15px;
