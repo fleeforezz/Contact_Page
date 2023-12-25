@@ -1,514 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
-    top: 0;
-    bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
     background-color: #242424;
-    display: block;
-    align-items: center;
-    margin: 10px;
-    height: 50vh;
-    overflow: hidden;
-}
-
-.logo {
-    position: absolute;
-    margin: 75px 910px;
-    width: 81px;
-    height: 127.5px;
-    border-radius: 360px;
-}
-
-.name {
-    position: absolute;
-    margin: 225px 850px;
-    text-shadow: 0px 0px 5px black;
-    color: white;
 }
 
 .intro {
-    position: absolute;
-    margin: 225px 850px;
-    text-shadow: 0px 0px 5px black;
-    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    color: aliceblue;
+    gap: 1rem;
 }
 
-.outtro-text {
-    color: white;
-    text-align: center;
+.intro img {
+    width: 100px;
+    border-radius: 50%;
 }
 
-.outtro {
-    text-align: center;
-    margin-top: 300px;
-    animation: outtro 500ms infinite;
-    animation-direction: alternate;
-}
-@keyframes outtro {
-    100% { margin-top: 280px}
-}
-
-.navigation-outside {
-    position: absolute; 
-    transform: translate(810px, 350px);
+.sub {
+    color: rgb(204, 204, 204);
 }
 
 .navigation-inside {
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 4rem;
 }
 
-                                                            /*GitHub*/
+.navigation-inside a {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    flex-direction: row;
+    width: 100%;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 0.7rem;
+    transition: 300ms;
+}
+.navigation-inside a:hover {
+    transform: scale(1.05, 1.05);
+}
+.navigation-inside img {
+    width: 28px;
+}
+
 .github {
-    font-weight: 600;
+    background-color: black;
     color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/github-mark-white.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
 }
-.gitbox1 {
-    filter: blur(2px);
-    position: absolute;
-    width: 10%;
-    height: 3%;
-    background-color: red;
-    border-radius: 50% 25%;
-    z-index: -1;
-    transform: translate(-180px, -5px);
-    animation: gitbox1 5s infinite;
-}
-@keyframes gitbox1 {
-    100% { transform: translate(-180px, -5px) rotate(360deg); }
-}
-.gitbox2 {
-    filter: blur(2px);
-    position: absolute;
-    width: 10%;
-    height: 3%;
-    background-color: aquamarine;
-    border-radius: 1px;
-    z-index: -1;
-    transform: translate(100px, 30px);
-    animation: gitbox2 5s infinite alternate-reverse;
-}
-@keyframes gitbox2 {
-    100% { transform: translate(100px, 30px) rotate(360deg); }
-}
-.github:hover, .github:active {
-    background-color: lightgray;
-    color: black;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/github-mark.png);
-    background-size: 27px;
-    background-repeat: no-repeat;
-    background-position: 70px 13px;
-}
-
-                                                            /*Facebook*/
 .facebook {
-    font-weight: 600;
+    background-color: #378eee;
     color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/facebook-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
 }
-.facebox1 {
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    background-image: url(assets/boy.png);
-    background-repeat: no-repeat;
-    z-index: -1;
-    transform: translate(15px, 75px);
-    animation: facebox1 5s infinite alternate;
-}
-@keyframes facebox1 {
-    50% { transform: translate(15px, 50px); }
-    100% { transform: translate(15px, 50px);  }
-}
-.facebox2 {
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    background-image: url(assets/girl.png);
-    background-repeat: no-repeat;
-    border-radius: 1px;
-    z-index: -1;
-    transform: translate(-30px, 75px);
-    animation: facebox2 5s infinite alternate-reverse;
-}
-@keyframes facebox2 {
-    50% { transform: translate(-30px, 50px); }
-    100% { transform: translate(-30px, 50px);  }
-}
-.facebook:hover, .facebook:active {
-    background-color: #71afff;
-    color: black;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/facebook-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 70px 13px;
-}
-
-                                                            /*Instagram*/
 .instagram {
-    font-weight: 600;
+    background: linear-gradient(to left , blue, red, yellow);
     color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/instagram-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
 }
-.instagram:hover, .instagram:active {
-    color: black;
-    background-color: thistle;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/instagram-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 70px 13px;
-}
-
-                                                            /*Twitch*/
 .twitch {
-    font-weight: 600;
+    background-color: #8d56fe;
     color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/twitch-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
 }
-.twibox-game-console {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    background-image: url(assets/game-console.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    transform: translate(60px, 250px) rotate(-15deg);
-    animation: twibox-game-console 500ms infinite alternate;
-}
-@keyframes twibox-game-console {
-    100% {
-        transform: translate(60px, 245px) rotate(-15deg);
-    }
-}
-.twitch:hover, .twitch:active {
-    background-color: #ae78ff;
-    color: black;
-    border: none;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/twitch-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 70px 15px;
-}
-
-                                                            /*Discord*/
 .discord {
-    font-weight: 600;
+    background-color: #5d6ff1;
     color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/discord-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
 }
-.disbox-gamer {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    background-image: url(assets/gamer.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    transform: translate(48px, 332px);
-}
-.disbox-heart {
-    position: absolute;
-    width: 16px;
-    height: 15px;
-    background-image: url(assets/heart.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    transform: translate(85px, 332px) rotate(30deg);
-    animation: heart 2s infinite alternate;
-}
-@keyframes heart {
-    100% {
-        transform: translate(85px, 339px) rotate(30deg);
-    }
-}
-.disbox-mushroom {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-image: url(assets/mushroom.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    transform: translate(25px, 350px) rotate(-10deg);
-    animation: mushroom 1s infinite alternate-reverse;
-}
-@keyframes mushroom {
-    100% {
-        transform: translate(25px, 345px) rotate(-10deg);
-    }
-}
-.discord:hover, .discord:active{
-    background-color: #848df2;
+.portfolio {
+    background-color: aliceblue;
     color: black;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/discord-black-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 70px 15px;
-}
-
-                                                            /*Fleeforezz*/
-.Fleeforezz {
-    font-weight: 600;
-    color: white;
-    border-radius: 10px;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 500ms;
-    background: black;
-    background-image: url(assets/fleeforezz-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 16px;
-}
-.fleebox-leaf {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    background-image: url(assets/leaf2.png);
-    background-repeat: no-repeat;
-    z-index: -1;
-    transform: translate(-200px, 410px);
-    animation: fleebox-leaf 3s infinite alternate;
-}
-@keyframes fleebox-leaf {
-    100% { transform: translate(-200px, 415px); }
-}
-.fleebox-tree {
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    background-image: url(assets/olive-tree.png);
-    background-repeat: no-repeat;
-    border-radius: 1px;
-    z-index: 1;
-    transform: translate(45px, 400px) rotate(-70deg);
-}
-
-.Fleeforezz:hover, .Fleeforezz:active {
-    background-color: rgb(179, 252, 228);
-    color: black;
-    box-shadow: 0px 0px 20px 10px black;
-    transition-duration: 500ms;
-    background-image: url(assets/fleeforezz-icon.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 70px 15px;
-}
-
-                                                            /* 1650 Screen */
-@media screen and (max-width: 1650px) {
-    .header {
-        margin-top: 5em;
-    }
-
-    .outtro {
-        text-align: center;
-        margin-top: 15em;
-    }
-
-    ::-webkit-scrollbar {
-        width: 5px;
-        background-color: #242424;
-    }
-    ::-webkit-scrollbar-thumb {
-        border: 25px;
-        border-radius: 180px;
-        background-color: rgb(58, 58, 58);
-    }
-
-    .github {
-        font-size: 15px;
-        margin-left: 190px;
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .github:hover, .github:active {
-        background-size: 13.5px;
-        background-position: 30px 13px;
-    }
-
-    .facebook {
-        font-size: 15px;
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .facebook:hover, .facebook:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .instagram {
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .instagram:hover, .instagram:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .twitch {
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .twitch:hover, .twitch:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .discord {
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .discord:hover, .discord:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .Fleeforezz {
-        padding: 7.5px 50px;
-        background-size: 20px;
-    }
-    .Fleeforezz:hover, .Fleeforezz:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-}
-
-                                                            /* 800px Screen */
-@media screen and (max-width: 800px) {
-    .outtro {
-        text-align: center;
-        margin-top: 8em;
-    }
-
-    .github {
-        font-size: 15px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .github:hover, .github:active {
-        background-image: none;
-    }
-
-    .facebook {
-        font-size: 15px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .facebook:hover, .facebook:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .instagram {
-        padding: 7.5px 50px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .instagram:hover, .instagram:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .twitch {
-        padding: 7.5px 50px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .twitch:hover, .twitch:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .discord {
-        padding: 7.5px 50px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .discord:hover, .discord:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
-
-    .Fleeforezz {
-        padding: 7.5px 50px;
-        margin-left: 100px;
-        background-image: none;
-    }
-    .Fleeforezz:hover, .Fleeforezz:active {
-        background-size: 13.5px;
-        background-repeat: no-repeat;
-        background-position: 30px 13px;
-    }
 }
