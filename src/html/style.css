@@ -12,6 +12,7 @@ body {
     transform: translate(-50%, -50%);
     font-family: 'Poppins', sans-serif;
     background-color: #242424;
+    max-height: 100vh;
 }
 
 .intro {
@@ -41,12 +42,16 @@ body {
     margin-top: 4rem;
 }
 
+.navigation-inside li {
+    list-style: none;
+    width: 100%;
+}
+
 .navigation-inside a {
     display: flex;
     align-items: center;
     gap: 6rem;
     flex-direction: row;
-    width: 100%;
     text-decoration: none;
     padding: 20px;
     border-radius: 0.7rem;
@@ -82,4 +87,10 @@ body {
 .portfolio {
     background-color: aliceblue;
     color: black;
+}
+
+@media (max-width: 1600px) {
+    .navigation-inside a {
+        padding: 10px;
+    }
 }
