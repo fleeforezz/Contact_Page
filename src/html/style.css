@@ -50,7 +50,7 @@ body {
 .navigation-inside a {
     display: flex;
     align-items: center;
-    gap: 6rem;
+    gap: 1rem;
     flex-direction: row;
     text-decoration: none;
     padding: 20px;
@@ -73,7 +73,7 @@ body {
     color: white;
 }
 .instagram {
-    background: linear-gradient(to left , blue, red, yellow);
+    background: linear-gradient(to bottom left , blue, red, yellow);
     color: white;
 }
 .twitch {
@@ -92,5 +92,8 @@ body {
 @media (max-width: 1600px) {
     .navigation-inside a {
         padding: 10px;
+    }
+    .navigation-inside img {
+        width: 20px;
     }
 }
